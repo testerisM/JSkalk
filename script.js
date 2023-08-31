@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const rekinatButton = document.getElementById('rekinat');
-    rekinatButton.addEventListener('click', kalkulacija);
+    rekinatButton.addEventListener('mousedown', kalkulacija);
 });
 
 function kalkulacija() {
